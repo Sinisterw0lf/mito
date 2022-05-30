@@ -1,5 +1,5 @@
 @import "reset.css";
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -33,12 +33,12 @@ html{
 
 .bg-section {
   background-color: #f2f8f2;
+  /* background-size: cover; */
 }
 
 .text-center {
   text-align: center;
 }
-
 
 /* header */
 header {
@@ -55,6 +55,38 @@ header {
   background-position: center;
   height: 100vh;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+h1 {
+  font-size: 6rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+  z-index: 100;
+}
+
+.overlay {
+  /* background-color: #000; */
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 36, 1) 0%,
+    rgba(9, 56, 147, 1) 13%,
+    rgba(0, 236, 255, 1) 100%
+  );
+
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+#wrapper-header__bloc-hero-mito{
+  color: red;
 }
 
 /* space nav link */

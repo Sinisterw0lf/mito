@@ -1,0 +1,55 @@
+@import "header.css";
+
+/* hero */
+.wrapper-header__bloc-hero {
+  height: 50vh;
+}
+
+/* main */
+.contact-main__h2 {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #99f3bd;
+  padding: 10px;
+}
+
+/* form */
+.formulaire {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 4px #b4cfb0;
+  border-radius: 30px;
+  margin: 40px 500px 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+label {
+  display: flex;
+}
+.form-name {
+  padding: 15px;
+}
+
+.form-mail {
+  padding: 15px;
+}
+
+.form-description {
+  padding: 15px;
+}
+
+/* button */
+.button {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+/* footer */
+footer {
+  padding: 30px 0;
+  color: #fff;
+}
